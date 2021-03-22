@@ -1,4 +1,5 @@
 // Copyright 2021 NNTU-CS
+
 int cbinsearch(int *arr, int size, int value) {
   int right = 0, left = size - 1, sum = 0;
   while (right < left) {
