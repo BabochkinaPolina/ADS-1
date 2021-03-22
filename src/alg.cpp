@@ -15,8 +15,6 @@ int cbinsearch(int *arr, int size, int value) {
       right++;
     }
   }
-  if (summ != 0)
-    return summ;
   if (sum != 0)
     return sum;
   else
